@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.cabecera {
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cabecera-japo {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.cabecera h1 {
+  margin: 0;
+}
+
+.contenedor-botones {
+  display: flex;
+  flex-direction: row;
+  height: 126px;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.boton-eleccion {
+  width: 150px;
+  height: 120px;
+  cursor: pointer;
+  margin: 8px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 18px;
+  background-color: white;
+}
+
+.boton-eleccion:hover {
+  opacity: 40%;
+}
+
+.boton-eleccion-disabled {
+  width: 150px;
+  height: 100px;
+  /* cursor: pointer; */
+  margin: 8px;
+  border-radius: 10px;
+  border: 0;
+  opacity: 0.6;
+  font-size: 18px;
+  background-color: white;
+}
+
+.boton-eleccion-disabled:hover {
+  opacity: 0.6;
+}
+
+.text-area-container {
+  width: 450px;
+  height: 300px;
+  border: 1px solid rgb(199, 200, 201);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 35px 0 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-area h3 {
+  max-width: 390px;
+  margin: 35px;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+  border: 1px solid rgb(84, 169, 248);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.boton-reset {
+  left: 820px;
+  height: 100px;
+  cursor: pointer;
+  width: 480px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.boton-reset-invisible {
+  position: absolute;
+  display: none;
+  top: 215px;
+  left: 860px;
+  width: 120px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.iconito {
+  width: 120px;
+}
+
+.jan {
+  color: rgb(0, 162, 255);
+}
+
+.ken {
+  color: rgb(235, 54, 166);
+}
+
+.pon {
+  color: rgb(255, 238, 0);
+}
+
+.iconito-resultado {
+  width: 90px;
+}
+
+.iconito-resultado-invisible {
+  display: none;
+  width: 90px;
+}
+
+.image-area {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  margin: auto;
+  gap: 38px;
+  margin-bottom: -20px;
+}

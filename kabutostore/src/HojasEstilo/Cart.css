@@ -1,0 +1,128 @@
+.cart-sidebar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  flex-direction: column;
+  width: 24%;
+  min-height: 200px;
+  right: -0px;
+  top: 84px;
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+  background-color: white;
+}
+
+.cart-sidebar h2 {
+  color: white;
+  font-size: 18px;
+}
+
+.cart-sidebar .cabecera {
+  display: flex;
+  justify-content: center;
+  background-color: #2186bc;
+  width: 100.68%;
+  height: 50px;
+  align-items: center;
+  border-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #e4e4e4;
+}
+.item-container img {
+  width: 22%;
+  height: 120px;
+  margin-right: 20px;
+  border-radius: 8px;
+  margin-top: 3px;
+}
+
+.item-container p {
+  font-size: 12px;
+  margin-top: 0;
+  margin-left: auto;
+}
+
+.item-container button {
+  width: 22px;
+  height: 25px;
+  margin-left: 10px;
+  border-radius: 10px;
+  border: 0;
+  color: #bc217c;
+  background-color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.item-container .footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.item-container .footer .price {
+  margin-top: 1x;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.item-container .footer .quantity {
+  margin-right: 2px;
+  margin-bottom: 0;
+  font-size: 12px;
+  color: gray;
+}
+
+.item-container .footer h5 {
+  font-size: 14px;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.total-container div {
+  display: flex;
+  width: 350px;
+  justify-content: flex-end;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.total-container button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-bottom: 18px;
+  padding: 5px;
+  background-color: #bc217c;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  width: 110px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.total-container h3:first-of-type {
+  color: #0e0d0d;
+}
+
+.total-price {
+  color: rgb(53, 52, 52);
+}

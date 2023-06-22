@@ -1,0 +1,62 @@
+.container {
+  max-width: 400px;
+  min-height: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #c93cd6;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-form {
+  width: 320px;
+  height: 40px;
+}
+
+.input-form:focus {
+  outline: none;
+}
+
+.input-form-up {
+  width: 280px;
+  height: 30px;
+}
+
+.form-button {
+  width: 80px;
+  border-radius: 6px;
+  border: 0;
+  margin-left: 5px;
+}
+
+.tarea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.tarea-texto {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.tarea-botones {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tarea-botones button {
+  margin-left: 10px;
+  width: 70px;
+  height: 40px;
+  border-radius: 6px;
+  border: 0;
+}

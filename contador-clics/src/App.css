@@ -1,0 +1,48 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html,
+body {
+   background-color: #1a1a2e;
+}
+
+.App {
+   min-height: 100vh;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding: 15px;
+   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.logo-contenedor {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 10px;
+   top: 10px;
+}
+
+.sf_logo {
+   width: 570px;
+}
+
+.contenedor-contadorYbotones {
+   height: 540px;
+   min-width: 600px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.contenedor-contador {
+   margin: 40px 0;
+}

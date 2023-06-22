@@ -1,0 +1,57 @@
+{
+   "folders": [
+	{
+		"path": "../../../Curso JS Moderno"
+	},
+	{
+		"path": "../../../Curso JS Moderno - FIN"
+	},
+	{
+		"path": "../../../JavaScript TOTAL"
+	},
+	{
+		"path": "../../../Apuntes Sueltos"
+	},
+	{
+		"path": "../../../Web Developer Bootcamp"
+	},
+	{
+		"path": "../../../Universidad JS"
+	},
+	{
+		"path": "../.."
+	}
+],
+   "settings": {
+      "editor.fontFamily": "'Cascadia Code', 'Courier New', monospace",
+      "editor.fontSize": 13.5,
+      "liveServer.settings.multiRootWorkspaceName": "Apuntes Sueltos",
+      "oneDarkPro.bold": true,
+      "oneDarkPro.vivid": true,
+      "editor.fontLigatures": true,
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.fontVariations": false,
+      "auto-close-tag.activationOnLanguage": [
+         "xml",
+         "php",
+         "blade",
+         "ejs",
+         "jinja",
+         "javascript",
+         "javascriptreact",
+         "typescript",
+         "typescriptreact",
+         "plaintext",
+         "markdown",
+         "vue",
+         "liquid",
+         "erb",
+         "lang-cfml",
+         "cfml",
+         "HTML (EEx)",
+         "HTML (Eex)",
+         "plist"
+      ]
+   }
+}

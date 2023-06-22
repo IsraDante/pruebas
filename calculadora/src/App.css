@@ -1,0 +1,63 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.App {
+   width: 100%;
+   height: 100vh;
+   padding-top: 5px;
+   background-color: #1b1b32;
+   font-family: sans-serif;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo-contenedor {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo {
+   width: 300px;
+   margin-right: 10px;
+}
+
+.contenedor-calculadora {
+   width: 400px;
+   height: 700px;
+   padding: 14px;
+   border-radius: 15px;
+   background-color: rgb(37, 30, 30);
+   border: solid rgb(238, 184, 140) 2px;
+}
+
+.contenedor-pocketlogo {
+   width: 43%;
+   color: rgb(238, 184, 140);
+   font-size: 20px;
+   margin-left: 10px;
+}
+
+.CalcuLogo {
+   width: 366px;
+   height: 155px;
+   margin-left: 22px;
+}
+.fila {
+   margin: 4px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.capcom {
+   display: inline-block;
+   margin-top: 10px;
+   margin-left: 315px;
+   color: rgb(238, 184, 140);
+}

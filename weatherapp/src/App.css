@@ -1,0 +1,70 @@
+body {
+  background-color: #2f3544;
+}
+
+.App {
+  text-align: center;
+}
+
+h3,
+h2,
+p {
+  margin: 5px;
+}
+
+h1 {
+  margin-bottom: 2px;
+}
+.card-currentinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 450px;
+  height: 508px;
+  background-color: white;
+}
+
+.card-currentinfo p {
+  font-size: 20px;
+}
+
+.card-currentinfo span {
+  display: flex;
+}
+
+.card-currentinfo img {
+  width: 120px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-tomorrow,
+.card-pasttomorrow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.card-tomorrow p,
+.card-pasttomorrow p {
+  font-size: 13px;
+}
+
+.maxmin {
+  display: flex;
+  color: grey;
+}

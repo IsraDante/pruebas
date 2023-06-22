@@ -1,0 +1,11 @@
+.targeta-contenedor {
+   background-color: rgb(228, 56, 56);
+   width: 330px;
+   height: 150px;
+}
+
+.targeta-contenedor.realizada {
+   background-color: rgb(19, 199, 73);
+   width: 330px;
+   height: 150px;
+}

@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  margin: 10px;
+}
+
+.text-area {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+textarea {
+  height: 120px;
+  border: rgb(114, 209, 247) 2px solid;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+}
+
+button {
+  background-color: rgb(0, 178, 248);
+  border: 0;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(122, 210, 245);
+}
+
+.twittlist {
+  background-color: rgb(4, 128, 66);
+  border: 0;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.twittlist:hover {
+  background-color: rgb(103, 194, 149);
+}
+
+.list-area-hidden {
+  height: 120px;
+  border: rgb(43, 201, 122) 2px solid;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  margin-top: 10px;
+  display: none;
+}
+
+.list-area {
+  height: 120px;
+  border: rgb(43, 201, 122) 2px solid;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  margin-top: 10px;
+  overflow-y: scroll;
+  font-size: 14px;
+}
+
+.twitt {
+  border-bottom: 1px solid rgb(94, 197, 145);
+  width: 100px;
+  margin: auto;
+}

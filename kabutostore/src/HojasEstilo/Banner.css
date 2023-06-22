@@ -1,0 +1,17 @@
+.banner {
+  display: flex;
+  height: 230px;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  margin-top: 85px;
+}
+
+.banner img {
+  height: 250px;
+  width: 965px;
+  margin: auto;
+  border-left: solid 1px #e4e4e4;
+  border-right: solid 1px #e4e4e4;
+  border-bottom: solid 1px #e4e4e4;
+}
