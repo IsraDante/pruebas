@@ -29,6 +29,8 @@
 }
 
 .links input {
+
+  display: none;
   width: 280px;
   height: 35px;
   margin-left: 20px;
@@ -43,6 +45,12 @@
 
 .links input::placeholder {
   color: grey;
+}
+
+@media screen and (min-width: 500px){
+.links input{
+  display: block;
+} 
 }
 
 .katakana {
