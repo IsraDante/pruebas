@@ -76,9 +76,16 @@
 
 .botones-container {
   display: flex;
-  flex-direction: row;
-  margin-left: auto;
+  flex-direction: column;
+  gap:6px;
 }
+@media screen and (min-width: 500px) {
+  .botones-container {
+    flex-direction: row;
+
+  } 
+}
+
 
 .boton-comprar {
   color: #bc217c;

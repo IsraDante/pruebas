@@ -2,25 +2,34 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .items-container {
-  width: 1000px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  margin-left: 460px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  
+}
+
+@media screen and (min-width: 700px) {
+  .items-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  } 
+}
+
+@media screen and (min-width: 850px) {
+  .items-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  } 
 }
 
 .item {
-  width: 200px;
-  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  margin: 10px;
-  margin-top: 3px;
   border: 1px solid#e7e7e7;
   padding: 12px;
 }
@@ -30,7 +39,7 @@
 }
 
 .item img {
-  width: 195px;
+  width: 100%;
   height: 240px;
   border-radius: 8px;
   object-fit: cover;
@@ -47,8 +56,6 @@
 .boton-comprar {
   width: 90px;
   height: 30px;
-  margin-left: auto;
-  margin-right: auto;
   cursor: pointer;
   color: white;
   font-size: 14px;
@@ -70,8 +77,6 @@
 .boton-favoritos {
   width: 88px;
   height: 30px;
-  margin-left: auto;
-  margin-right: 6px;
   cursor: pointer;
   color: white;
   font-size: 14px;
